@@ -1,7 +1,5 @@
-@import url(https://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
-
 html, body {
-    font-family: 'Noto Sans Japanese';
+    font-family: 'Ubuntu Mono';
     margin-button: 0px;
     padding-button: 0px;
     height: 100%;
@@ -9,7 +7,7 @@ html, body {
     position: relative;
 }
 
-h1, h2, h3, h4, #menu {
+h1, h2, h3, h4 {
     font-family: 'Ubuntu Mono';
 }
 

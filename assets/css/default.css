@@ -17,6 +17,7 @@ h1, h2, h3, h4 {
 }
 
 .footer {
+    font-family: 'Ubuntu Mono';
     font-size: 87.5%;
     width: 100%;
     border-top: 1px solid #eee;

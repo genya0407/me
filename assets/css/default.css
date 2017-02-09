@@ -1,28 +1,70 @@
-html, body {
-    font-family: 'Ubuntu Mono';
-    margin-button: 0px;
-    padding-button: 0px;
-    height: 100%;
-    width: 100%;
-    position: relative;
+body {
+    margin: 0px auto 0px auto;
+    max-width: 800px;
 }
 
-h1, h2, h3, h4 {
-    font-family: 'Ubuntu Mono';
+#header {
+    border-bottom: 4px solid;
+    text-align: center;
 }
 
-#layout {
-    position: relative;
-    min-height: 100%;
+#header > a {
+    text-decoration: none;
+    color: black;
 }
 
-.footer {
-    font-family: 'Ubuntu Mono';
+#footer {
     font-size: 87.5%;
     width: 100%;
-    border-top: 1px solid #eee;
+    border-top: 4px solid;
     margin-top: 3.4286em;
     padding: 1.1429em;
-    background: rgb(250, 250, 250);
     bottom: 0px;
+}
+
+.product-img {
+    width: 800px;
+    border: solid 1px;
+}
+
+.product-index-img {
+    width: 200px;
+}
+
+.product-index-text {
+    flex: 1;
+}
+
+.product-index-text > ul {
+    list-style-type: none;
+}
+
+.product-index-title {
+    font-size: 120%;
+    color: black;
+}
+
+.product-index-description {
+    font-size: 70%;
+    color: gray;
+}
+
+#product-description {
+    margin-top: 30px;
+}
+
+#products > a {
+    text-decoration: none;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    padding: 5px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+
+img {
+    max-width:100%;
 }

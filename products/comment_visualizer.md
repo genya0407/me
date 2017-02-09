@@ -1,5 +1,5 @@
 ---
-title: comment visualizer
+title: Comment Visualizer
 abstract: ニコニコ動画のコメントの時間分布を可視化するChrome拡張機能
 image-path: assets/image/visualizer.png
 technologies: JavaScript

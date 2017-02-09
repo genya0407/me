@@ -1,21 +1,31 @@
 body {
     margin: 0px auto 0px auto;
-    max-width: 800px;
+    width: 800px;
     background-color: floralwhite;
 }
+@media screen and (max-width: 800px) {
+    body {
+        width: 90%;
+    }
+}
 
-#content {
-    margin-top: 30px;
+@media screen and (max-width: 800px) {
+    ul {
+        padding-left: 10%;
+    }
 }
 
 #header {
     border-bottom: 4px solid;
     text-align: center;
 }
-
 #header > a {
     text-decoration: none;
     color: black;
+}
+
+#content {
+    margin-top: 30px;
 }
 
 #footer {
@@ -27,34 +37,21 @@ body {
     bottom: 0px;
 }
 
+/* product/hoge.html */
+
 .product-img {
     width: 800px;
     border: solid 1px;
 }
-
-.product-index-img {
-    width: 200px;
+@media screen and (max-width: 800px) {
+    .product-img {
+        width: 100%;
+    }
 }
 
-.product-index-text {
-    flex: 1;
-}
+/* index.html */
 
-.product-index-text > ul {
-    list-style-type: none;
-}
-
-.product-index-title {
-    font-size: 120%;
-    color: black;
-}
-
-.product-index-description {
-    font-size: 70%;
-    color: gray;
-}
-
-#products > a {
+#product-index > a {
     text-decoration: none;
 }
 
@@ -66,7 +63,46 @@ body {
     align-items: center;
     background-color: white;
 }
+@media screen and (max-width: 800px) {
+    .card {
+        height: 60px;
+    }
+}
 
-img {
+.product-index-text {
+    flex: 1;
+}
+.product-index-text > ul {
+    list-style-type: none;
+}
+
+.product-index-title {
+    font-size: 120%;
+    color: black;
+}
+@media screen and (max-width: 800px) {
+    .product-index-title {
+        font-size: 90%;
+    }
+}
+
+.product-index-img {
+    width: 25%;
     max-width:100%;
+}
+@media screen and (max-width: 800px) {
+    .product-index-img {
+        width: auto;
+        height: 100%;
+    }
+}
+
+.product-index-description {
+    font-size: 70%;
+    color: gray;
+}
+@media screen and (max-width: 400px) {
+    .product-index-description {
+        display: none;
+    }
 }

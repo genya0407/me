@@ -5,11 +5,11 @@ image-path: assets/image/fes-generator.png
 technologies: JavaScript
 ---
 
-ソースコードは[ここ](https://github.com/genya0407/fes_generator)。
-動いているものは[ここ](https://kuminecraft.xyz/fes)。
-すべてのロジックを生JSで書き、addEventListener地獄になった。
+- [ソースコード](https://github.com/genya0407/fes_generator)
+- [動いているもの](https://kuminecraft.xyz/fes)
 
-任天堂から発売されたゲーム「Splatoon」の、[フェス](https://www.nintendo.co.jp/wiiu/agmj/festival/)のコラ画像を生成するWebアプリ。
+任天堂から発売されたゲーム Splatoonの、[フェス](https://www.nintendo.co.jp/wiiu/agmj/festival/)のコラ画像を生成するWebアプリ。
+すべてのロジックを生JSで書き、addEventListener地獄になった。
 
 当時は以下のような理由から、公開は見送った。
 

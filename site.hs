@@ -119,4 +119,4 @@ main = do
 
 config = defaultConfiguration { deployCommand = deploy }
     where
-        deploy = "cp -r _site/* /srv/blog"
+        deploy = "./deploy.sh"

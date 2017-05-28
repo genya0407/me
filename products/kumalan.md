@@ -7,7 +7,7 @@ technologies: Yesod | Haskell | Bootstrap
 
 - [ソースコード](https://github.com/genya0407/yesod-kumalan-client)
 
-HaskellのWebフレームワーク[Yesod](http://www.yesodweb.com/)で作成した。
+HaskellのWebフレームワーク[Yesod](http://www.yesodweb.com/)で作成した。Yesodつらいという気持ちになった。
 
 私は寮で、小さなインターネットプロバイダーみたいなことをやっている。
 会員のデバイスのMACアドレスを記録し、

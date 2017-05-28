@@ -13,11 +13,12 @@ body {
     }
 }
 
-#header {
+.header {
     border-bottom: 4px solid;
     text-align: center;
 }
-#header > a {
+
+.header > a {
     text-decoration: none;
     color: black;
 }
@@ -49,7 +50,16 @@ body {
 
 /* index.html */
 
-#product-index > a {
+.tab {
+    display: flex;
+    align-content: flex-start;
+}
+
+.column {
+    flex: 1;
+}
+
+.card-link {
     text-decoration: none;
 }
 
@@ -60,6 +70,7 @@ body {
     display: flex;
     align-items: center;
     background-color: white;
+    text-decoration: none;
 }
 @media screen and (max-width: 800px) {
     .card {
@@ -67,40 +78,39 @@ body {
     }
 }
 
-.product-index-text {
+.card-body {
     flex: 1;
 }
-.product-index-text > ul {
+.card-body > ul {
     list-style-type: none;
 }
 
-.product-index-title {
-    font-size: 120%;
+.card-title {
     color: black;
 }
 @media screen and (max-width: 800px) {
-    .product-index-title {
+    .card-title {
         font-size: 90%;
     }
 }
 
-.product-index-img {
+.card-img {
     width: 25%;
     max-width:100%;
 }
 @media screen and (max-width: 800px) {
-    .product-index-img {
+    .card-img {
         width: auto;
         height: 100%;
     }
 }
 
-.product-index-description {
+.card-description {
     font-size: 70%;
     color: gray;
 }
 @media screen and (max-width: 400px) {
-    .product-index-description {
+    .card-description {
         display: none;
     }
 }

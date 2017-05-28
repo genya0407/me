@@ -1,20 +1,33 @@
 ---
-title: Products
+title: About: Yusuke Sangenya
 ---
 
-<div id='product-index'>
-    $for(products)$
-    <a href='$url$'>
-        <div class='card'>
-            <img src='/$image-path$' class="product-index-img"/>
-            <div class='product-index-text'>
-                <ul>
-                    <li class='product-index-title'>$title$</li>
-                    <li class='product-index-description'>$abstract$</li>
-                    <li class='product-index-description'>$technologies$</li>
-                </ul>
-            </div>
+<div class='tab'>
+    <div class='column'>
+        <div class='header'>
+            <h2>Qiita</h2>
         </div>
-    </a>
-    $endfor$
+        $for(qiita_posts)$
+            $body$
+        $endfor$
+    </div>
+
+    <div class='column'>
+        <div class='header'>
+            <h2>Products</h2>
+        </div>
+        $for(products)$
+        <a href='$url$' class='card-link'>
+            <div class='card'>
+                <img src='/$image-path$' class="card-img"/>
+                <div class='card-body'>
+                    <ul>
+                        <li class='card-title'>$title$</li>
+                        <li class='card-description'>$technologies$</li>
+                    </ul>
+                </div>
+            </div>
+        </a>
+        $endfor$
+    </div>
 </div>

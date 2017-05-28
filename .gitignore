@@ -22,3 +22,4 @@ cabal.sandbox.config
 .DS_STORE
 .stack-work/
 _cache/
+.bitballoon

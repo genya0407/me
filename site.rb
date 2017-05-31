@@ -3,6 +3,7 @@ require 'yaml'
 require 'pathname'
 require 'fileutils'
 require 'redcarpet'
+require 'qiita'
 
 module Rakyll
 end
@@ -136,6 +137,11 @@ def dsl(&block)
   route.save
 end
 
+def get_qiita_items
+  client = Qiita::Client.new(access_token: ENV['QIITA_ACCESS_TOKEN'])
+  client.list_items(query: 'user:genya0407 ').body
+end
+
 dsl do
   match 'products/*' do
     apply 'product.html.erb'
@@ -146,6 +152,7 @@ dsl do
 
   create 'index.html' do
     @products = load_all 'products/*'
+    @qiita_items = get_qiita_items
     @title = "About: Yusuke Sangenya"
     apply 'index.html.erb'
     apply 'default.html.erb'

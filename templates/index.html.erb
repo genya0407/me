@@ -3,9 +3,18 @@
         <div class='header'>
             <h2>Qiita</h2>
         </div>
-        $for(qiita_posts)$
-            $body$
-        $endfor$
+        <% @qiita_items.each do |item| %>
+        <a href='<%= item["url"] %>' class='card-link'>
+            <div class='card'>
+                <img src='http://cdn.qiita.com/assets/favicons/public/apple-touch-icon-f9a6afad761ec2306e10db2736187c8b.png' class="card-img"/>
+                <div class='card-body'>
+                    <ul>
+                        <li class='card-title'><%= item['title'] %></li>
+                    </ul>
+                </div>
+            </div>
+        </a>
+        <% end %>
     </div>
 
     <div class='column'>

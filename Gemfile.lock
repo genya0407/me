@@ -1,12 +1,43 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    activesupport (5.1.1)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (~> 0.7)
+      minitest (~> 5.1)
+      tzinfo (~> 1.1)
+    concurrent-ruby (1.0.5)
+    faraday (0.12.1)
+      multipart-post (>= 1.2, < 3)
+    faraday_middleware (0.11.0.1)
+      faraday (>= 0.7.4, < 1.0)
+    i18n (0.8.4)
+    minitest (5.10.2)
+    multipart-post (2.0.0)
+    qiita (1.3.5)
+      activesupport
+      faraday (~> 0.9)
+      faraday_middleware
+      rack
+      rainbow
+      rouge
+      slop (< 4.0.0)
+    rack (2.0.3)
+    rainbow (2.2.2)
+      rake
+    rake (12.0.0)
     redcarpet (3.4.0)
+    rouge (2.0.7)
+    slop (3.6.0)
+    thread_safe (0.3.6)
+    tzinfo (1.2.3)
+      thread_safe (~> 0.1)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  qiita
   redcarpet
 
 BUNDLED WITH

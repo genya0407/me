@@ -1,7 +1,6 @@
----
 title: 顔認識API
 abstract: 動画から顔を検出して、顔が写っている時間の一覧を返すAPI。MBSハッカソンで作った。
-image-path: assets/image/hayashi-graph.png
+image_path: /assets/image/hayashi-graph.png
 technologies: AWS | Python
 ---
 

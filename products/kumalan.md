@@ -1,7 +1,6 @@
----
 title: kumaLAN
 abstract: MACアドレスを管理するWebアプリ
-image-path: assets/image/kumaLAN.png
+image_path: /assets/image/kumaLAN.png
 technologies: Yesod | Haskell | Bootstrap
 ---
 

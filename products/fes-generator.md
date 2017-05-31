@@ -1,7 +1,6 @@
----
 title: Splatoon コラ画像ジェネレータ
 abstract: Splatoonのフェスのコラ画像を生成するWebアプリ
-image-path: assets/image/fes-generator.png
+image_path: /assets/image/fes-generator.png
 technologies: JavaScript
 ---
 

@@ -1,7 +1,6 @@
----
 title: 熊野寮内部ページ
 abstract: 熊野寮で使われるWebアプリ
-image-path: assets/image/kumano-dormitory-internal.png
+image_path: /assets/image/kumano-dormitory-internal.png
 technologies: Django | Python | Bootstrap
 ---
 

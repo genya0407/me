@@ -1,25 +1,9 @@
-# Created by https://www.gitignore.io/api/haskell
-
 ### vim ###
 *.swp
 
-### Haskell ###
-dist
-cabal-dev
-*.o
-*.hi
-*.chi
-*.chs.h
-*.dyn_o
-*.dyn_hi
-.hpc
-.hsenv
-.cabal-sandbox/
-cabal.sandbox.config
-*.prof
-*.aux
-*.hp
-.DS_STORE
-.stack-work/
-_cache/
+### Ruby ###
+vendor
+.bundle
+
+### Other ###
 .bitballoon

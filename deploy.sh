@@ -1,2 +1,2 @@
-stack exec blog build
+bundle exec ruby site.rb
 bitballoon deploy ./_site

@@ -1,8 +1,9 @@
 
-# how to run
+# how to generate site
 
 ```shell
-$ stack build
-$ stack exec blog build
-$ stack exec blog preview
+$ export QIITA_ACCESS_TOKEN='~~~~~'
+$ bundle install
+$ bundle exec ruby site.rb
+$ bundle exec ruby -run -e httpd ./_site -p 8080 
 ```

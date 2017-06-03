@@ -3,7 +3,7 @@ abstract: ニコニコ動画のコメントの時間分布を可視化するChro
 technologies: JavaScript
 ---
 
-- [ソースコード](https://github.com/genya0407/niconico\_comment\_visualiser)
+- [genya0407/niconico\_comment\_visualiser](https://github.com/genya0407/niconico\_comment\_visualiser)
 - [Chromeウェブストア](https://chrome.google.com/webstore/detail/niconicocommentvisualizer/lahlfbnopindeiocbcconhmdiodmgagb)
 
 ニコニコ動画のコメントの時間分布を可視化するChrome拡張機能。

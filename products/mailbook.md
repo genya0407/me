@@ -3,7 +3,7 @@ abstract: 寮の人の名前とメールアドレスを紐付けるWebアプリ
 technologies: Ruby on Rails | Ruby | Bootstrap
 ---
 
-- [ソースコード](https://github.com/genya0407/member)
+- [genya0407/member](https://github.com/genya0407/member)
 
 RubyのWebフレームワーク[Ruby on Rails](http://rubyonrails.org/)で作成した。
 

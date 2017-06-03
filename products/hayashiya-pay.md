@@ -3,7 +3,7 @@ abstract: 動画から顔を検出して、顔が写っている時間の一覧�
 technologies: AWS | Python
 ---
 
-- [ソースコード](https://github.com/genya0407/face-clustering/)
+- [genya0407/face-clustering](https://github.com/genya0407/face-clustering/)
 - [hacklog](http://hacklog.jp/works/50338)
 
 ## 概要

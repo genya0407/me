@@ -1,3 +1,10 @@
+GIT
+  remote: git://github.com/genya0407/rakyll.git
+  revision: 763263996acc3f915f1f52bbff52f42b3cb0919d
+  specs:
+    rakyll (0.1.0)
+      redcarpet (~> 3.4)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -28,8 +35,6 @@ GEM
     rainbow (2.2.2)
       rake
     rake (12.0.0)
-    rakyll (0.1.0)
-      redcarpet (~> 3.4)
     redcarpet (3.4.0)
     rouge (2.0.7)
     slop (3.6.0)
@@ -44,7 +49,7 @@ PLATFORMS
 DEPENDENCIES
   filewatcher
   qiita
-  rakyll
+  rakyll!
 
 BUNDLED WITH
    1.14.6

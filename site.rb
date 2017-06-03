@@ -6,7 +6,13 @@ def get_qiita_items
   client.list_items(query: 'user:genya0407 ').body
 end
 
-Rakyll.dsl do
+opts = {
+  redcarpet_extensions: {
+    fenced_code_blocks: true
+  }
+}
+
+Rakyll.dsl opts do
   match 'products/*' do
     apply 'default.html.erb'
   end

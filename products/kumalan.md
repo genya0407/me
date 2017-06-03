@@ -3,7 +3,7 @@ abstract: MACアドレスを管理するWebアプリ
 technologies: Yesod | Haskell | Bootstrap
 ---
 
-- [ソースコード](https://github.com/genya0407/yesod-kumalan-client)
+- [genya0407/yesod-kumalan-client](https://github.com/genya0407/yesod-kumalan-client)
 
 HaskellのWebフレームワーク[Yesod](http://www.yesodweb.com/)で作成した。Yesodつらいという気持ちになった。
 

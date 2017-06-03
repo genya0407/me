@@ -3,7 +3,7 @@ abstract: Splatoonのフェスのコラ画像を生成するWebアプリ
 technologies: JavaScript
 ---
 
-- [ソースコード](https://github.com/genya0407/fes_generator)
+- [genya0407/fes_generator](https://github.com/genya0407/fes_generator)
 - [動いているもの](https://kuminecraft.xyz/fes)
 	- SSL鍵の更新を忘れたため、ブラウザで警告が出ます
 

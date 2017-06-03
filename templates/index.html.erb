@@ -1,38 +1,23 @@
-<div class='tab'>
-    <div class='column'>
-        <div class='header'>
-            <h2>Qiita</h2>
-        </div>
-        <% @qiita_items.each do |item| %>
-        <a href='<%= item["url"] %>' class='card-link'>
-            <div class='card'>
-                <img src='http://cdn.qiita.com/assets/favicons/public/apple-touch-icon-f9a6afad761ec2306e10db2736187c8b.png' class="card-img"/>
-                <div class='card-body'>
-                    <ul>
-                        <li class='card-title'><%= item['title'] %></li>
-                    </ul>
-                </div>
-            </div>
-        </a>
-        <% end %>
-    </div>
+<h2>Products</h2>
+<ul>
+<% @products.each do |product| %>
+    <li>
+        <a href='<%= product.url %>'><%= product.title %></a>
+    </li>
+<% end %>
+</ul>
 
-    <div class='column'>
-        <div class='header'>
-            <h2>Products</h2>
-        </div>
-        <% @products.each do |product| %>
-        <a href='<%= product.url %>' class='card-link'>
-            <div class='card'>
-                <img src='<%= product.image_path %>' class="card-img"/>
-                <div class='card-body'>
-                    <ul>
-                        <li class='card-title'><%= product.title %></li>
-                        <li class='card-description'><%= product.technologies %></li>
-                    </ul>
-                </div>
-            </div>
-        </a>
-        <% end %>
-    </div>
-</div>
+<h2>Qiita</h2>
+<ul>
+<% @qiita_items.each do |item| %>
+    <li>
+        <a href='<%= item["url"] %>'><%= item['title'] %></a>
+    </li>
+<% end %>
+</ul>
+
+<h2>More</h2>
+<ul>
+    <li><a href='https://twitter.com/genya0407'>@genya0407(Twitter)</a></li>
+    <li><a href='https://github.com/genya0407'>@genya0407(Github)</a></li>
+</ul>

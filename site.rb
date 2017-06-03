@@ -14,6 +14,7 @@ opts = {
 
 Rakyll.dsl opts do
   match 'products/*' do
+    convert_to_html
     apply 'default.html.erb'
   end
 
@@ -21,6 +22,7 @@ Rakyll.dsl opts do
 
   create 'index.html' do
     @products = load_all 'products/*'
+    @products.each { |compiler| compiler.convert_to_html }
     @qiita_items = get_qiita_items
     @title = "About: Yusuke Sangenya"
     apply 'index.html.erb'

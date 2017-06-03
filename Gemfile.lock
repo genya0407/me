@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/genya0407/rakyll.git
-  revision: 8dfd9db727bed5c35ef3a18de54a8eca1ac60434
+  revision: 3e944881ae9b8adf7d117bbc7f9dfcba059502a4
   specs:
     rakyll (0.1.1)
       redcarpet (~> 3.4)

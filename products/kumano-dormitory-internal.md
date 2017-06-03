@@ -1,3 +1,4 @@
+---
 title: 熊野寮内部ページ
 abstract: 熊野寮で使われるWebアプリ
 technologies: Django | Python | Bootstrap

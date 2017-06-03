@@ -1,3 +1,4 @@
+---
 title: Splatoon コラ画像ジェネレータ
 abstract: Splatoonのフェスのコラ画像を生成するWebアプリ
 technologies: JavaScript

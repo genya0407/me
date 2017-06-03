@@ -1,3 +1,4 @@
+---
 title: 名簿
 abstract: 寮の人の名前とメールアドレスを紐付けるWebアプリ
 technologies: Ruby on Rails | Ruby | Bootstrap

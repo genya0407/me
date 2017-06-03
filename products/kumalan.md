@@ -1,3 +1,4 @@
+---
 title: kumaLAN
 abstract: MACアドレスを管理するWebアプリ
 technologies: Yesod | Haskell | Bootstrap

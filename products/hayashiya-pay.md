@@ -1,3 +1,4 @@
+---
 title: 顔認識API
 abstract: 動画から顔を検出して、顔が写っている時間の一覧を返すAPI。MBSハッカソンで作った。
 technologies: AWS | Python

@@ -1,3 +1,4 @@
+---
 title: Rakyll
 abstract: 静的サイトジェネレータ
 technologies: Ruby

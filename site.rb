@@ -8,7 +8,6 @@ end
 
 Rakyll.dsl do
   match 'products/*' do
-    apply 'product.html.erb'
     apply 'default.html.erb'
   end
 

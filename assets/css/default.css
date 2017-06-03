@@ -2,6 +2,8 @@ body {
     font-size: 1em;
     line-height: 1.5em;
     margin: 2em auto;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
     max-width: 35em;
 }
 
@@ -10,6 +12,7 @@ li {
 }
 
 img {
+    width: 100%;
     max-width: 35em;
     border: 1px solid;
 }

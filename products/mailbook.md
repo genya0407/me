@@ -1,6 +1,5 @@
 title: 名簿
 abstract: 寮の人の名前とメールアドレスを紐付けるWebアプリ
-image_path: /assets/image/ror.jpg
 technologies: Ruby on Rails | Ruby | Bootstrap
 ---
 

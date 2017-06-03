@@ -1,6 +1,5 @@
 title: 顔認識API
 abstract: 動画から顔を検出して、顔が写っている時間の一覧を返すAPI。MBSハッカソンで作った。
-image_path: /assets/image/hayashi-graph.png
 technologies: AWS | Python
 ---
 
@@ -19,7 +18,7 @@ technologies: AWS | Python
 
 ## 構成
 
-<img src="/assets/image/hayashi-structure.png" class="product-img" />
+![](/assets/image/hayashi-structure.png)
 
 全体的にAWSのサービスを用いて構築されている。
 
@@ -48,5 +47,3 @@ Lambdaは、動画を１秒ごとにキャプチャし、生成された画像�
 
 最後に、WebAPIを叩き、「どの時刻に誰が映っているか」という情報を取得する。
 これは単にDynamoDBからデータを取得し、それを少し整形してJSONにして返しているだけである。
-
-↓ 帰ってきたJSONをグラフに起こすとこんな感じになる。

@@ -12,31 +12,7 @@ technologies: Ruby
 [Hakyll](https://jaspervdj.be/hakyll/)というHaskellの静的サイトジェネレータDSLに大きく影響を受けている。
 というかほとんどHakyllのRuby cloneである。
 
-## 使い方
-
-以下に、このサイトを生成するスクリプトの一部を抜粋する。
-
-```ruby
-Rakyll.dsl do
-  match 'products/*' do
-    apply 'default.html.erb'
-  end
-
-  copy 'assets/*/*'
-
-  create 'index.html' do
-    @products = load_all 'products/*'
-    @qiita_items = get_qiita_items
-    @title = "About: Yusuke Sangenya"
-    apply 'index.html.erb'
-    apply 'default.html.erb'
-  end
-end
-```
-
-このようなDSLを書いておき、Markdownで書いた記事や、ERBで書いたHtmlテンプレート、CSSやJavaScripや画像ファイルを指定のディレクトリに配置すれば、このページが生成される。
-
-## 何故作ったのか
+## Why?
 
 既存の静的サイトジェネレータに不満があったからである。
 
@@ -89,6 +65,30 @@ Haskellは良い言語だと思うし、動的言語よりも書きやすいと�
 そして、そういうものは存在していないようだったので、Rakyllというgemを作成した。
 
 これが、Rakyllを作った経緯である。
+
+## How to use?
+
+以下に、このサイトを生成するスクリプトの一部を抜粋する。
+
+```ruby
+Rakyll.dsl do
+  match 'products/*' do
+    apply 'default.html.erb'
+  end
+
+  copy 'assets/*/*'
+
+  create 'index.html' do
+    @products = load_all 'products/*'
+    @qiita_items = get_qiita_items
+    @title = "About: Yusuke Sangenya"
+    apply 'index.html.erb'
+    apply 'default.html.erb'
+  end
+end
+```
+
+このようなDSLを書いておき、Markdownで書いた記事や、ERBで書いたHtmlテンプレート、CSSやJavaScripや画像ファイルを指定のディレクトリに配置すれば、このページが生成される。
 
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
 <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>

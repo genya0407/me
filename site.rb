@@ -32,7 +32,7 @@ Rakyll.dsl opts do
     @products.each { |compiler| compiler.convert_to_html }
     @qiita_items = get_qiita_items
     @blog_items = get_blog_items
-    @title = "About: Yusuke Sangenya"
+    @title = "About: genya0407"
     apply 'index.html.erb'
     apply 'default.html.erb'
   end

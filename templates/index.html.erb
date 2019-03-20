@@ -1,3 +1,21 @@
+<h2>Latest Blog Articles</h2>
+<ul>
+<% @blog_items.each do |item| %>
+    <li>
+        <a href='<%= item.link %>'><%= item.title %></a>
+    </li>
+<% end %>
+</ul>
+
+<h2>Latest Qiita Articles</h2>
+<ul>
+<% @qiita_items.each do |item| %>
+    <li>
+        <a href='<%= item["url"] %>'><%= item['title'] %></a>
+    </li>
+<% end %>
+</ul>
+
 <h2>Products</h2>
 <ul>
 <% @products.each do |product| %>
@@ -7,28 +25,12 @@
 <% end %>
 </ul>
 
-<h2>Blog</h2>
-<ul>
-<% @blog_items.each do |item| %>
-    <li>
-        <a href='<%= item.link %>'><%= item.title %></a>
-    </li>
-<% end %>
-</ul>
-
-<h2>Qiita</h2>
-<ul>
-<% @qiita_items.each do |item| %>
-    <li>
-        <a href='<%= item["url"] %>'><%= item['title'] %></a>
-    </li>
-<% end %>
-</ul>
-
 <h2>More</h2>
 <ul>
     <li><a href='https://twitter.com/genya0407'>@genya0407(Twitter)</a></li>
     <li><a href='https://github.com/genya0407'>@genya0407(Github)</a></li>
     <li><a href='http://dawn.hateblo.jp/'>さんちゃのblog</a></li>
-    <li><a href='https://gist.github.com/genya0407/24fb3aa89ea8229bd7eaac1f62830c0c'>Favs</a></li>
+    <li><a href='https://reing.kuminecraft.xyz/'>質問箱</a></li>
+    <li><a href='https://scrapbox.io/genya0407/Favorite_things'>Favs</a></li>
+    <li><a href='https://www.amazon.co.jp/hz/wishlist/ls/2GMBDT6Z03819?type=wishlist&filter=unpurchased&sort=priority'>ほしいものリスト</a></li>
 </ul>

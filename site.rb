@@ -30,8 +30,8 @@ Rakyll.dsl opts do
   create 'index.html' do
     @products = load_all 'products/*'
     @products.each { |compiler| compiler.convert_to_html }
-    @qiita_items = get_qiita_items
-    @blog_items = get_blog_items
+    @qiita_items = get_qiita_items.first(5)
+    @blog_items = get_blog_items.first(5)
     @title = "About: genya0407"
     apply 'index.html.erb'
     apply 'default.html.erb'

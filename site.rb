@@ -2,7 +2,7 @@ require "rakyll"
 require "rss"
 
 def articles
-  blog_rss_url = "http://dawn.hateblo.jp/rss"
+  blog_rss_url = "https://articles.kuminecraft.xyz/feed.xml"
   rss = RSS::Parser.parse(blog_rss_url)
   rss.channel.items
 end

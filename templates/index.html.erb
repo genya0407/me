@@ -2,7 +2,7 @@
 <ul>
 <% @articles.each do |item| %>
     <li>
-        <a href='<%= item.link %>'><%= item.title %></a>
+        <a href='<%= item.link.href.strip %>' target='_blank'><%= item.title.content %></a>
     </li>
 <% end %>
 </ul>

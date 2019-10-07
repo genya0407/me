@@ -1,9 +1,12 @@
 require "rakyll"
 require "rss"
+require 'uri'
+require 'net/http'
 
 def articles
   blog_atom_url = "https://articles.kuminecraft.xyz/feed.xml"
-  atom = RSS::Parser.parse(blog_atom_url)
+  feed_body = Net::HTTP.get(URI(blog_atom_url))
+  atom = RSS::Parser.parse(feed_body)
   atom.items
 end
 

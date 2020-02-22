@@ -6,7 +6,7 @@ technologies: Ruby
 
 ## What?
 
-- [github](https://github.com/genya0407/sharecar-rails)
+- [genya0407/sharecar-rails](https://github.com/genya0407/sharecar-rails)
 - [sandbox app](https://enigmatic-refuge-39913.herokuapp.com/)
   - Email: example@example.com
   - Password: password

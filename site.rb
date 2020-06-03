@@ -13,11 +13,17 @@ end
 opts = {
   redcarpet_extensions: {
     fenced_code_blocks: true,
+    tables: true,
   },
 }
 
 Rakyll.dsl opts do
   match "products/*" do
+    convert_to_html
+    apply "default.html.erb"
+  end
+
+  match "salary.md" do
     convert_to_html
     apply "default.html.erb"
   end

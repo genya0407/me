@@ -1,3 +1,9 @@
+<style type='text/css'>
+  table, td, th {
+    border: solid 1px black;
+  }
+</style>
+
 |date|annual income|special bonus|
 |----|-------------|-----|
 |2019/04|5,000,000 yen|0 yen|

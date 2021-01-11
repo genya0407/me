@@ -13,7 +13,7 @@ GEM
     filewatcher (1.1.1)
       optimist (~> 3.0)
     optimist (3.0.0)
-    redcarpet (3.5.0)
+    redcarpet (3.5.1)
     yaml-front-matter (0.0.1)
 
 PLATFORMS

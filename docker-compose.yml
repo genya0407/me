@@ -12,6 +12,7 @@ services:
   generator:
     build: .
     command: /app/launch.sh
+    restart: always
     volumes:
       - public_content:/app/_site
 volumes:

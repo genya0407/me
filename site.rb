@@ -3,6 +3,8 @@ require "rss"
 require 'uri'
 require 'net/http'
 
+Encoding.default_external = 'utf-8'
+
 def articles
   blog_atom_url = "https://articles.kuminecraft.xyz/feed.xml"
   feed_body = Net::HTTP.get(URI(blog_atom_url))

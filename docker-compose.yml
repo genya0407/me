@@ -10,7 +10,7 @@ services:
     depends_on:
       - generator
   generator:
-    build: genya0407.net/me_generator:latest
+    image: docker.genya0407.net/me_generator:latest
     command: /app/launch.sh
     restart: always
     volumes:

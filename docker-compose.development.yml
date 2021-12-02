@@ -1,0 +1,7 @@
+services:
+  generator:
+    build: .
+    env_file: .env.development
+  web:
+    ports:
+    - "127.0.0.1:3000:80"

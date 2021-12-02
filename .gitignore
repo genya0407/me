@@ -1,4 +1,4 @@
-### vim ###
+.env.production### vim ###
 *.swp
 
 ### Ruby ###

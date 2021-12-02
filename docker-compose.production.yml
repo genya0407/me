@@ -1,0 +1,7 @@
+services:
+  generator:
+    image: docker.genya0407.net/me_generator:${TAG}
+    env_file: .env.production
+  web:
+    ports:
+    - "127.0.0.1:${PORT:?err}:80"

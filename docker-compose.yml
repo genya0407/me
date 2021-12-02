@@ -2,18 +2,16 @@ version: '3'
 services:
   web:
     image: nginx
-    ports:
-      - "127.0.0.1:${HOST_PORT:?err}:80"
     restart: always
     volumes:
       - public_content:/usr/share/nginx/html
     depends_on:
       - generator
   generator:
-    image: docker.genya0407.net/me_generator:latest
     command: /app/launch.sh
     restart: always
     volumes:
       - public_content:/app/_site
+
 volumes:
   public_content:

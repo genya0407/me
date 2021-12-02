@@ -6,7 +6,7 @@ require 'net/http'
 Encoding.default_external = 'utf-8'
 
 def articles
-  blog_atom_url = "https://articles.kuminecraft.xyz/feed.xml"
+  blog_atom_url = "https://articles.genya0407.net/feed.xml"
   feed_body = Net::HTTP.get(URI(blog_atom_url))
   atom = RSS::Parser.parse(feed_body)
   atom.items

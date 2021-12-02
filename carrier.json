@@ -1,0 +1,11 @@
+{
+    "images": {
+        "generator": "Dockerfile"
+    },
+    "context": "genya0407.net",
+    "tag": "v1.0.1-rc1",
+    "projectName": "me",
+    "registry": "docker.genya0407.net",
+    "environments": {},
+    "port": "3001"
+}

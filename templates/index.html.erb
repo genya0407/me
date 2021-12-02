@@ -1,6 +1,6 @@
 <h2>Latest Blog Articles</h2>
 <ul>
-<% @articles.each do |item| %>
+<% @articles.select(&:link).each do |item| %>
     <li>
         <a href='<%= item.link.href.strip %>' target='_blank'><%= item.title.content %></a>
     </li>

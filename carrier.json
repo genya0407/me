@@ -3,7 +3,7 @@
         "generator": "Dockerfile"
     },
     "context": "genya0407.net",
-    "tag": "v1.0.1-rc1",
+    "tag": "v1.0.3",
     "projectName": "me",
     "registry": "docker.genya0407.net",
     "environments": {},

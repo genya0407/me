@@ -1,5 +1,5 @@
 GIT
-  remote: git://github.com/genya0407/rakyll.git
+  remote: https://github.com/genya0407/rakyll.git
   revision: e16c08d3065ea08f2d2c7071d893290d827b3409
   ref: e16c08d3065ea08f2d2c7071d893290d827b3409
   specs:
@@ -24,4 +24,4 @@ DEPENDENCIES
   rakyll!
 
 BUNDLED WITH
-   1.17.2
+   2.3.5

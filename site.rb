@@ -25,9 +25,7 @@ Rakyll.dsl opts do
     apply "default.html.erb"
   end
 
-  match "salary.md" do
-    convert_to_html
-    apply "default.html.erb"
+  match "salary.html" do
   end
 
   copy "assets/*/*"

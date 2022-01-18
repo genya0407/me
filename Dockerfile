@@ -1,4 +1,4 @@
-FROM ruby:2.6.4
+FROM ruby:2.7.5
 
 ENV TZ Asia/Tokyo
 RUN apt-get update && apt-get install -y busybox-static
